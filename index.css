@@ -3,8 +3,13 @@
   text-align: center;
 }
 
+.navbar-light .navbar-brand{
+  color: rgb(179, 0, 0) !important;
+}
+
+
 #main{
-  background-color: pink;
+  /* background-color: pink; */
 }
 .content{
   text-align: center;
@@ -16,7 +21,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(179, 0, 0);
   color: white;
   text-align: center;
 }

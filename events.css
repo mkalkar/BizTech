@@ -11,7 +11,17 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: rgb(179, 0, 0);
   color: white;
   text-align: center;
+}
+
+.navbar-light .navbar-brand{
+  color: rgb(179, 0, 0) !important;
+}
+
+/* color of hovered item */
+.list-group-item.active{
+  background-color: rgb(179, 0, 0) !important;
+  border-color: rgb(179, 0, 0) !important;
 }
