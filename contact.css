@@ -82,3 +82,13 @@ input[type=submit]:hover {
 #head{
   margin-top: 40px;
 }
+
+body{
+  background-color: #f2f3f4;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  
+}

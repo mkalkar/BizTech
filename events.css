@@ -31,3 +31,25 @@
   padding: 5px;
 
 }
+
+h5{
+  color: black;
+}
+
+body{
+  background-color: #f2f3f4;
+}
+
+ol{
+  list-style: none;
+  padding: 0;
+}
+
+.main{
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+h3{
+
+}

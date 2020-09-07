@@ -3,6 +3,10 @@
   text-align: center;
 }
 
+body{
+  background-color: #f2f3f4;
+}
+
 .navbar-light .navbar-brand{
   color: rgb(179, 0, 0) !important;
 }

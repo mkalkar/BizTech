@@ -1,6 +1,6 @@
 
-#main{
-  background-color: pink;
+body{
+  background-color: #f2f3f4;
 }
 
 .navbar-light .navbar-brand{
@@ -44,6 +44,7 @@
     display: block;
     margin-bottom: 20px;
   }
+
 }
 
 /* Style the counter cards */
@@ -71,8 +72,9 @@
 
 }
 
-h4{
+h4,h5{
   text-align: center;
+
 }
 
 p{
@@ -84,7 +86,10 @@ p{
   text-align: left;
   /* text-decoration: underline; */
   margin-top: 60px;
-  margin-bottom: 60px;
+  color: #A9A9A9	;
+  font-weight:normal;
+  /* margin-bottom: 30px; */
+  /* color: rgb(179, 0, 0) */
 }
 
 .title{
