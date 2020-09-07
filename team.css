@@ -57,6 +57,7 @@
 #meetTeam{
   margin-top: 40px;
   margin-bottom: 40px;
+
 }
 
 
@@ -70,6 +71,24 @@
 
 }
 
-h4, p{
+h4{
   text-align: center;
+}
+
+p{
+  text-align:justify;
+ /* text-justify: distribute; */
+}
+
+#header{
+  text-align: left;
+  /* text-decoration: underline; */
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.title{
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
 }
