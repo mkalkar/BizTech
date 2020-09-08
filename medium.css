@@ -33,6 +33,6 @@ a:link, a:visited{
   color: white;
 }
 
-.container{
-  margin-top: 40px;
+.head{
+  color: blue;
 }
