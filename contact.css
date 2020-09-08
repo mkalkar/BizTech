@@ -90,5 +90,59 @@ body{
 ul{
   list-style: none;
   padding: 0;
-  
+
+}
+
+#icon{
+  width: 50px;
+  height: 50px;
+}
+
+#foot{
+  margin-top: 30px;
+}
+
+#icon:hover{
+  color: white;
+}
+
+a:link, a:visited{
+  color:white;
+}
+
+#dif:hover{
+  color: rgb(179, 0, 0);
+}
+
+#dif:link, #dif:visited{
+  color: rgb(179, 0, 0);
+}
+
+#wugo:hover{
+  color: rgb(179, 0, 0);
+}
+
+#wugo:link, #wugo:visited{
+  color: rgb(179, 0, 0);
+}
+
+.socials{
+  text-align: left;
+}
+
+img{
+  width: 10%;
+}
+
+@media only screen and (max-width: 400px){
+  .form{
+    width: 70%;
+  }
+}
+
+
+}
+
+#top{
+  margin-top: 10px;
 }
