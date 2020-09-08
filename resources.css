@@ -32,3 +32,31 @@ body{
 a:link, a:visited{
   color: white;
 }
+
+#dif:hover{
+  color: rgb(179, 0, 0);
+}
+
+#dif:link, #dif:visited{
+  color: rgb(179, 0, 0);
+}
+
+
+.container{
+  margin-top: 50px;
+  padding: 5px;
+
+}
+
+img{
+  width: 10%;
+  height: 10%;
+}
+
+#head{
+  color: #A9A9A9	;
+}
+
+li{
+  padding-bottom: 20px;
+}
