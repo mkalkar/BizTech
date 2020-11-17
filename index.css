@@ -8,27 +8,103 @@ body{
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(179, 0, 0) !important;
+  color:rgb(77, 121, 255)!important;
+
 }
 
+#title{
+  background-color: white;
+  height: 500px;
+  width: 500px;
+  text-align: center;
+  margin: 100px;
+}
 
 #main{
   /* background-color: pink; */
+
+  /* The image used */
+  background-image: url("blueBack.png");
+
+  /* Set a specific height */
+  /* height: 1500px; */
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
-.content{
+
+#content{
+  /* text-align: center; */
+
+  font-family: Arial;
+  font-size: 20px;
+
+  /* color: white; */
+  max-width: 100%;
+  /* background-color:#bd0d00; */
+  /* padding: 150px; */
+  /* margin-top: 200px; */
+
+}
+
+.first{
+  margin-top: 100px;
+  background-color: white;
+  color: black;
+  text-align: left;
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.firstContent, .getInvolved, .learnMore{
+  margin-top: 30px;
+
+}
+
+.getInvolved, .learnMore{
   text-align: center;
-  background-color: lightblue;
+}
+
+
+
+
+#firstHeader{
+  font-weight: bold;
+  color: rgb(77, 121, 255);
+  text-align: center
+}
+
+.second{
+    margin-top: 400px;
+    background-color: white;
+    text-align: left;
+}
+
+#rightColumn{
+  padding: 20px;
+  background-color: black;
+}
+
+ul{
+   list-style-type: none;
 }
 
 .footer {
-  position: fixed;
+  /* position: fixed; */
+  padding-top: 10px;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(179, 0, 0);
+  background-color: rgb(77, 121, 255);
   color: white;
   text-align: center;
 }
+
+
 /* #insta{
   width: 60px;
   height: 60px;
@@ -55,8 +131,67 @@ body{
 
 #icon:hover{
   color: white;
+
 }
 
 a:link, a:visited{
   color: white;
+}
+
+li, ul{
+  text-align: left;
+}
+
+#carouselImg{
+  height: 500px;
+}
+
+#third{
+  margin-top: 100px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 100px;
+  width: 70%;
+}
+
+.provideItems{
+  border-radius: 25px;
+   background: rgb(77, 121, 255);
+   padding: 20px;
+
+}
+
+.provideItems p{
+  color: white;
+  padding: 20px;
+}
+
+.btn{
+  background-color:rgb(77, 121, 255);
+  color: white;
+}
+
+#carousel{
+  margin-top: 100px;
+}
+
+#slide1{
+  background-color: rgb(77, 121, 255);
+}
+
+#secondHeader{
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#hr{
+  color: rgb(77, 121, 255);
+}
+
+#btn2{
+  background-color: #ffffff;
+  color: black
 }

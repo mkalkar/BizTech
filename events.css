@@ -1,6 +1,7 @@
 #main{
-  background-color: pink;
+    background-color: #f2f3f4;
 }
+
 .content{
   text-align: center;
   background-color: lightblue;
@@ -11,13 +12,13 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(179, 0, 0);
+  background-color: rgb(77, 121, 255);
   color: white;
   text-align: center;
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(179, 0, 0) !important;
+  color: rgb(77, 121, 255) !important;
 }
 
 /* color of hovered item */
@@ -32,13 +33,11 @@
 
 }
 
-h5{
-  color: black;
+li h5{
+  color:rgb(0, 82, 204);
 }
 
-body{
-  background-color: #f2f3f4;
-}
+
 
 ol{
   list-style: none;
@@ -49,6 +48,14 @@ ol{
   padding-bottom: 50px;
   padding-top: 30px;
 
+
+}
+
+.innerList{
+    background-color: white;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 25px;
 }
 
 #icon{
@@ -66,4 +73,14 @@ ol{
 
 a:link, a:visited{
   color: white;
+}
+
+#eventsTitle{
+  text-align: center;
+  color: rgb(0, 82, 204);
+}
+
+.date{
+  font-weight: bold;
+  color: black
 }

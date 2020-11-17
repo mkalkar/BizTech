@@ -4,7 +4,7 @@
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(179, 0, 0) !important;
+  color: rgb(77, 121, 255) !important;
 }
 
 .footer {
@@ -12,7 +12,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(179, 0, 0);
+  background-color: rgb(77, 121, 255);
   color: white;
   text-align: center;
 }
@@ -111,11 +111,11 @@ a:link, a:visited{
 }
 
 #dif:hover{
-  color: rgb(179, 0, 0);
+  color: rgb(77, 121, 255);
 }
 
 #dif:link, #dif:visited{
-  color: rgb(179, 0, 0);
+  color: rgb(77, 121, 255);
 }
 
 #wugo:hover{
@@ -123,7 +123,7 @@ a:link, a:visited{
 }
 
 #wugo:link, #wugo:visited{
-  color: rgb(179, 0, 0);
+  color: rgb(51, 102, 153);
 }
 
 .socials{
