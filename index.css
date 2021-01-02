@@ -4,7 +4,8 @@
 }
 
 body{
-  background-color: #f2f3f4;
+
+  /* background-color: #f2f3f4; */
 }
 
 .navbar-light .navbar-brand{
@@ -21,18 +22,19 @@ body{
 }
 
 #main{
+    background-color: #f2f3f4;
   /* background-color: pink; */
 
   /* The image used */
-  background-image: url("redBackgroundHomePage.png");
+  /* background-image: url("redBackgroundHomePage.png"); */
 
   /* Set a specific height */
   /* height: 1500px; */
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 
 }
 
@@ -51,8 +53,8 @@ body{
 }
 
 .first{
-  margin-top: 100px;
-  background-color: white;
+  /* margin-top: 100px; */
+  background-color: #f2f3f4;
   color: black;
   text-align: left;
   padding: 10%;
@@ -61,8 +63,16 @@ body{
 }
 
 .firstContent, .getInvolved, .learnMore{
-  margin-top: 30px;
+  /* margin-top: 30px; */
 
+}
+
+#rightCol{
+  /* background-color: grey; */
+}
+
+.learnMore{
+  margin-top: 30px;
 }
 
 .getInvolved, .learnMore{
@@ -80,14 +90,14 @@ body{
 }
 
 .second{
-    margin-top: 400px;
+    /* margin-top: 400px; */
     background-color: white;
     text-align: left;
 }
 
 #rightColumn{
-  padding: 20px;
-  background-color: black;
+  padding: 50px;
+  background-color: #505050;
 }
 
 ul{
@@ -147,20 +157,17 @@ li, ul{
 
 }
 
-#third{
-  margin-top: 100px;
-  color: white;
-  background-color: black;
-  text-align: center;
-  padding: 100px;
-  width: 70%;
-}
+
 
 .provideItems{
   border-style: ridge;
-
   padding: 5%;
+  margin: 15px;
 
+}
+
+.provideItems:hover{
+  background-color: #383838;
 }
 
 .provideItems p{
@@ -175,13 +182,7 @@ li, ul{
   color: white;
 }
 
-#carousel{
-  margin-top: 100px;
-}
 
-#slide1{
-  /* background-color: rgb(77, 121, 255); */
-}
 
 #secondHeader{
   font-style: Helvetica;
@@ -201,17 +202,109 @@ li, ul{
   color: white;
 }
 
-.carouselContent{
+.titleImage{
+  width: 100%;
+  object-fit: cover;
+}
+
+.titleContent{
+  width: 100%;
   position: absolute;
-  top: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  left: 5%;
-  z-index: 20;
+  color: white;
+  padding:0!important;
+}
+
+.biztechTitle{
+  font-family: Helvetica;
+  font-weight: bold;
+  /* font-size: 100px; */
   color: white;
 }
 
-.CarouselTitle{
-  font-family: Helvetica;
+#titleContainer{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#bizTechImage{
+  width: 100%;
+  object-fit: cover;
+}
+
+#zoomPic{
+  /* height: 300px;
+  width: 300px; */
+  /* height: 400px;
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: scale-down; */
+}
+
+/* .third{
+  margin-top: 20px;
+
+} */
+/* .zoomImageContainer{
+  max-width: 100%;
+} */
+
+.thirdContent{
+  text-align: center;
+
+}
+
+#semHigh{
+  color: #383838;
+  text-align: center;
   font-weight: bold;
-  font-size: 100px;
+  font-family: Helvetica;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.carImage {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}
+
+#thirdContent{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#highlightOne{
+  text-align: center;
+}
+
+#highlightImg{
+  width: 10%;
+  height: 10%;
+}
+
+.carousel-caption
+{
+  top: 30%;
+}
+
+/* @media only screen and (min-width : 200px) {
+  .carousel-caption
+  {
+    top: 30%;
+  }
+} */
+
+@media only screen and (min-width : 1200px) {
+  .carousel-caption
+  {
+    top: 30%;
+  }
 }
