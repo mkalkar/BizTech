@@ -1,5 +1,5 @@
 .navbar-light .navbar-brand{
-  color: rgb(77, 121, 255) !important;
+  color: #e60000 !important;
 }
 
 .footer {
@@ -7,9 +7,15 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(77, 121, 255);
+  background-color: #e60000;
   color: white;
   text-align: center;
+}
+
+#resourcesHeader{
+  font-family: Helvetica;
+  color: #e60000;
+  font-weight: bold;
 }
 
 body{
@@ -54,7 +60,8 @@ img{
 }
 
 #head{
-  color: #A9A9A9	;
+  color: #A9A9A9;
+  font-family: Helvetica;
 }
 
 li{

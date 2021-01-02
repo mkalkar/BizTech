@@ -8,7 +8,7 @@ body{
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(77, 121, 255) !important;
+  color: #e60000 !important;
 
 }
 
@@ -21,9 +21,10 @@ body{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(77, 121, 255);
+  background-color: #e60000;
   color: white;
   text-align: center;
+  font-family: Helvetica;
 }
 
 
@@ -74,7 +75,7 @@ body{
   color:#e5e4e2;
   font-weight: bold;
   font-size: 50px;
-  font-family: courier;
+  font-family: Helvetica;
   text-align: center;
 
 }
@@ -109,8 +110,8 @@ p{
   /* text-decoration: underline; */
   margin-top: 60px;
   color: #e5e4e2;	;
-  font-weight:normal;
-  font-family: courier;
+  font-weight:bold;
+  font-family: Helvetica;
   /* margin-bottom: 30px; */
   /* color: rgb(179, 0, 0) */
 }

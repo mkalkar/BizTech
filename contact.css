@@ -4,7 +4,7 @@
 }
 
 .navbar-light .navbar-brand{
-  color: rgb(77, 121, 255) !important;
+  color:  #e60000 !important;
 }
 
 .footer {
@@ -12,7 +12,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(77, 121, 255);
+  background-color:  #e60000;
   color: white;
   text-align: center;
 }
@@ -111,11 +111,11 @@ a:link, a:visited{
 }
 
 #dif:hover{
-  color: rgb(77, 121, 255);
+  color:  #e60000;
 }
 
 #dif:link, #dif:visited{
-  color: rgb(77, 121, 255);
+  color:  #e60000;
 }
 
 #wugo:hover{
