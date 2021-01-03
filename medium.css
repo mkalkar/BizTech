@@ -48,3 +48,7 @@ a:link{
 .head{
   color: blue;
 }
+
+.card-columns{
+  text-align: center;
+}
