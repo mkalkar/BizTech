@@ -41,7 +41,7 @@ body{
 #content{
   /* text-align: center; */
 
-  font-family: Arial;
+  font-family: Verdana;
   font-size: 20px;
 
   /* color: white; */
@@ -83,7 +83,7 @@ body{
 
 
 #firstHeader{
-  font-style: Helvetica;
+  font-style: Verdana;
   font-weight: bold;
   color: #e60000;
   text-align: center
@@ -160,9 +160,17 @@ li, ul{
 
 
 .provideItems{
-  border-style: ridge;
+/* height: 100px;
+ width: 100px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block; */
+  border-style: double;
+  border-color: white;
   padding: 5%;
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-family: Verdana;
 
 }
 
@@ -172,23 +180,28 @@ li, ul{
 
 .provideItems p{
   color: white;
-  padding: 20px;
-  font-family: Helvetica;
+  /* padding: 00px; */
+  font-family:Verdana;
 
 }
 
 .btn{
   background-color:#e60000;
   color: white;
+  font-family: Verdana;
 }
 
 
 
+
+
 #secondHeader{
-  font-style: Helvetica;
+  padding-top: 7%;
+  padding-bottom: 7%;
+  font-family: Verdana;
   font-weight: bold;
   color: white;
-  text-align: center;
+  text-align: left;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -216,17 +229,18 @@ li, ul{
   text-align: center;
   color: white;
   padding:0!important;
-  font-family: Helvetica;
+  font-family: Verdana;
 }
 
 .biztechTitle{
-  font-family: Helvetica;
+  font-family: Verdana;
   font-weight: bold;
   /* font-size: 100px; */
   color: white;
 }
 
 .biztechText{
+  font-family: Verdana;
   font-size: 20px;
   padding: 30px;
 }
@@ -266,12 +280,16 @@ li, ul{
 }
 
 #semHigh{
+  /* float: right; */
   color: #383838;
-  text-align: center;
+    /* padding: 10%; */
+  padding-top: 10%;
+  padding-bottom: 10%;
+  text-align: left;
   font-weight: bold;
-  font-family: Helvetica;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  font-family: Verdana;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .carImage {
@@ -313,4 +331,28 @@ li, ul{
   {
     top: 30%;
   }
+}
+
+.firstContent p{
+  font-family: Verdana;
+}
+
+#carouselContainer{
+  margin-top: 30px;
+  /* background-color: #383838; */
+}
+
+#leftColumnSemHigh{
+  background-color:  gray;
+  color: white;
+  padding: 6%;
+  font-family: Verdana;
+}
+
+#bottom{
+  padding-left: 0;
+}
+
+#leftColumnSemHigh p{
+    font-family: Verdana;
 }
