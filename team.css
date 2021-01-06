@@ -24,7 +24,7 @@ body{
   background-color: #e60000;
   color: white;
   text-align: center;
-  font-family: Helvetica;
+    font-family: Verdana;
 }
 
 
@@ -73,9 +73,9 @@ body{
   margin-top: 40px;
   margin-bottom: 40px;
   color:#e5e4e2;
-  font-weight: bold;
-  font-size: 50px;
-  font-family: Helvetica;
+  /* font-weight: bold; */
+  /* font-size: 50px; */
+  font-family: Verdana;;
   text-align: center;
 
 }
@@ -110,8 +110,8 @@ p{
   /* text-decoration: underline; */
   margin-top: 60px;
   color: #e5e4e2;	;
-  font-weight:bold;
-  font-family: Helvetica;
+  /* font-weight:bold; */
+  font-family: Verdana;
   /* margin-bottom: 30px; */
   /* color: rgb(179, 0, 0) */
 }

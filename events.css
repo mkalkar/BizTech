@@ -15,6 +15,7 @@
   background-color: #e60000;
   color: white;
   text-align: center;
+  font-family: Verdana;
 }
 
 .navbar-light .navbar-brand{
@@ -35,7 +36,7 @@
 
 li h5{
   color:#e60000;
-  font-family: Helvetica;
+  font-family: Verdana;
 }
 
 
@@ -79,8 +80,8 @@ a:link, a:visited{
 #eventsTitle{
   text-align: center;
   color: #e60000;
-  font-family: Helvetica;
-  font-weight: bold;
+  font-family: Verdana;
+  /* font-weight: bold; */
 }
 
 .date{

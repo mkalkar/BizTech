@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href= "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/bfdc7fd712.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   </head>
 
 <body>
@@ -32,18 +33,19 @@
 
 <div class=container>
   <div class=column>
-    <h1 id="semHigh"> Medium Articles </h1>
+    <h2 id="ArticleTitle"> Medium Articles </h2>
+    <hr>
     <div class="card-deck">
-    <div class="card">
+    <div id="AlumnProdPanel" class="card">
 
-      <div class="card-body">
+      <div  class="card-body">
         <h5 class="card-title">Alumni Product Panel</h5>
         <p class="card-text">
         Last Tuesday, WashU alums Grace Egbo, Facebook Software Engineer, Jordana Gilbert, Facebook Product Manager, and Mark Gjelsten, Blackrock Product Marketing Manager gathered to speak about their careers in product...</p>
         <p class="card-text"><small class="text-muted">Dec 3, 2020</small></p>
       </div>
     </div>
-    <div class="card">
+    <div id="breakIntoTech" class="card">
 
       <div class="card-body">
         <h5 class="card-title">Break into Tech with Jeremy Schifeling</h5>
@@ -51,7 +53,7 @@
         <p class="card-text"><small class="text-muted">Nov 2, 2020</small></p>
       </div>
     </div>
-    <div class="card">
+    <div id="internshipPanel" class="card">
 
       <div class="card-body">
         <h5 class="card-title">WashU BizTech Student Internship Panel</h5>
@@ -59,7 +61,7 @@
         <p class="card-text"><small class="text-muted">Sep 29, 2020</small></p>
       </div>
     </div>
-    <div class="card">
+    <div id="bizTechIntro" class="card">
 
       <div class="card-body">
         <h5 class="card-title">An Introduction to WashU BizTech</h5>
@@ -96,6 +98,26 @@
   </div>
 
 </body>
+
+<script>
+  $(document).ready(function(){
+    $("#AlumnProdPanel").click(function(){
+      window.location.href = "https://washubiztech.medium.com/alumni-product-panel-c59f1984f00e";
+    });
+    $("#breakIntoTech").click(function(){
+      window.location.href = "https://washubiztech.medium.com/break-into-tech-with-jeremy-schifeling-4c4eedbcd8dc";
+    });
+    $("#internshipPanel").click(function(){
+      window.location.href = "https://washubiztech.medium.com/washu-biztech-student-internship-panel-ef8ec361e329";
+    });
+    $("#bizTechIntro").click(function(){
+      window.location.href = "https://washubiztech.medium.com/an-introduction-to-washu-biztech-454f5e37038b";
+    });
+  });
+
+
+</script>
+
 <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
 <script src="https://www.retainable.app/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

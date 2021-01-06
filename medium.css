@@ -10,6 +10,7 @@
   background-color:  #e60000;
   color: white;
   text-align: center;
+  font-family: Verdana;
 }
 
 body{
@@ -51,4 +52,27 @@ a:link{
 
 .card-columns{
   text-align: center;
+}
+
+#ArticleTitle{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: verdana;
+  color: #e60000;
+}
+
+.card{
+   border-radius: 35px;
+   border-style: none;
+}
+
+.card:hover{
+
+  cursor: pointer;
+  background-color: #F5F5F5;
+
+}
+
+.card-body p, h5{
+  font-family: Verdana;
 }

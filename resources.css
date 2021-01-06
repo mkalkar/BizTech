@@ -10,12 +10,14 @@
   background-color: #e60000;
   color: white;
   text-align: center;
+  font-family: Verdana;
 }
 
 #resourcesHeader{
-  font-family: Helvetica;
+  font-family: Verdana;
   color: #e60000;
-  font-weight: bold;
+  text-align: center;
+  /* font-weight: bold; */
 }
 
 body{
@@ -51,6 +53,7 @@ a:link, a:visited{
 .container{
   margin-top: 50px;
   padding: 5px;
+    font-family: Verdana;
 
 }
 
@@ -61,7 +64,7 @@ img{
 
 #head{
   color: #A9A9A9;
-  font-family: Helvetica;
+  font-family: Verdana;
 }
 
 li{
