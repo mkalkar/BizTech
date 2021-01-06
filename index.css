@@ -372,3 +372,14 @@ li, ul{
 #hrForSemesterHighlights{
   background-color:  gray;
 }
+
+.semesterHighlight:link{
+  color: white;
+  text-decoration: underline;
+
+}
+
+.semesterHighlight:visited{
+  color: white
+  ;
+}
