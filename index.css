@@ -383,3 +383,42 @@ li, ul{
   color: white
   ;
 }
+
+.listOfPillars{
+  text-align: center;
+}
+
+.pillar h3, h2{
+  font-weight: bold;
+}
+
+
+#pillarsHeader{
+  font-weight: bold;
+  font-family: Verdana;
+  color: #383838;
+}
+
+#hrforPillars{
+  background-color: #383838;
+}
+
+.pillar{
+  background-color: #e60000;
+  margin: 30px;
+  padding: 20px;
+   border-radius: 25px;
+   color: white;
+   font-family: Verdana;
+}
+
+.pillar h4{
+  font-weight: bold;
+  color: #f2f3f4;
+}
+
+#contentWithPillars{
+      font-family: Verdana;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
