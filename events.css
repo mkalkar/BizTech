@@ -12,14 +12,14 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e60000;
+  background-color: rgb(176,0,0);
   color: white;
   text-align: center;
   font-family: Verdana;
 }
 
 .navbar-light .navbar-brand{
-  color: #e60000 !important;
+  color: rgb(176,0,0) !important;
 }
 
 /* color of hovered item */
@@ -35,7 +35,7 @@
 }
 
 li h5{
-  color:#e60000;
+  color:rgb(176,0,0);
   font-family: Verdana;
 }
 
@@ -79,7 +79,7 @@ a:link, a:visited{
 
 #eventsTitle{
   text-align: center;
-  color: #e60000;
+  color: rgb(176,0,0);
   font-family: Verdana;
   /* font-weight: bold; */
 }

@@ -9,7 +9,7 @@ body{
 }
 
 .navbar-light .navbar-brand{
-  color:#e60000!important;
+  color:rgb(176,0,0)!important;
 
 }
 
@@ -85,7 +85,7 @@ body{
 #firstHeader{
   font-style: Verdana;
   font-weight: bold;
-  color: #e60000;
+  color: rgb(176,0,0);
   text-align: center
 }
 
@@ -110,7 +110,7 @@ ul{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e60000;
+  background-color: rgb(176,0,0);
   color: white;
   text-align: center;
   font-family: Verdana;
@@ -188,7 +188,7 @@ li, ul{
 }
 
 .btn{
-  background-color:#e60000;
+  background-color:rgb(176,0,0);
   color: white;
   font-family: Verdana;
 
@@ -219,7 +219,7 @@ li, ul{
 }
 
 #btn2{
-  background-color: #e60000;
+  background-color: rgb(176,0,0);
   color: white;
 }
 
@@ -403,12 +403,12 @@ li, ul{
 
 #hrforPillars{
 
-  
+
   background-color: #383838;
 }
 
 .pillar{
-  background-color: #e60000;
+  background-color: rgb(176,0,0);
   margin: 30px;
   padding: 20px;
    border-radius: 25px;

@@ -8,7 +8,7 @@ body{
 }
 
 .navbar-light .navbar-brand{
-  color: #e60000 !important;
+  color: rgb(176,0,0) !important;
 
 }
 
@@ -21,10 +21,10 @@ body{
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #e60000;
+  background-color: rgb(176,0,0);
   color: white;
   text-align: center;
-    font-family: Verdana;
+  font-family: Verdana;
 }
 
 
