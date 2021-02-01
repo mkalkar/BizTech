@@ -88,3 +88,7 @@ a:link, a:visited{
   font-weight: bold;
   color: black
 }
+
+#rsvpLink:link, #rsvpLink:visited{
+  color: rgb(176,0,0);
+}
